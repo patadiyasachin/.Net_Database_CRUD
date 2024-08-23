@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\views\\customer\\getcustomer_list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:views\\customer\\getcustomer_list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\views\\bills\\getbill_list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:views\\bills\\getbill_list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\views\\orderdetail\\getalldetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:views\\orderdetail\\getalldetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\views\\order\\getall_order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:views\\order\\getall_order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\views\\user\\getall_user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:views\\user\\getall_user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\views\\product\\getallproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:views\\product\\getallproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetCustomer_list.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Customer\\GetCustomer_list.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\GetCustomer_list.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Customer\\GetCustomer_list.cshtml",
+              "RelativeToolTip": "Views\\Customer\\GetCustomer_list.cshtml",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T16:12:31.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAll_User.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\User\\GetAll_User.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\GetAll_User.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\User\\GetAll_User.cshtml",
+              "RelativeToolTip": "Views\\User\\GetAll_User.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAYwEMAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T16:10:37.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "getAllDetail.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\OrderDetail\\getAllDetail.cshtml",
+              "RelativeDocumentMoniker": "Views\\OrderDetail\\getAllDetail.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\OrderDetail\\getAllDetail.cshtml",
+              "RelativeToolTip": "Views\\OrderDetail\\getAllDetail.cshtml",
+              "ViewState": "AQIAADIAAAAAAAAAAAAYwDoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T16:10:49.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAll_Order.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Order\\GetAll_Order.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\GetAll_Order.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Order\\GetAll_Order.cshtml",
+              "RelativeToolTip": "Views\\Order\\GetAll_Order.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAYwDsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T16:10:42.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetBill_List.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Bills\\GetBill_List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bills\\GetBill_List.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Bills\\GetBill_List.cshtml",
+              "RelativeToolTip": "Views\\Bills\\GetBill_List.cshtml",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAYwFYAAACVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T16:10:54.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAswI4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:14:11.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAmwKMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:13:52.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetAllProduct.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Product\\GetAllProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\GetAllProduct.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Product\\GetAllProduct.cshtml",
+              "RelativeToolTip": "Views\\Product\\GetAllProduct.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAFwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T15:39:36.249Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

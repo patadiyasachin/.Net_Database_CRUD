@@ -1,0 +1,43 @@
+﻿@model OrderModel
+<form class="row g-3 m-3" asp-controller="Order" asp-action="Save" method="post">
+    <div class="col-8">
+        <input type="text" class="form-control" id="inputNanme4" hidden asp-for="OrderID">
+    </div>
+    <div class="col-8">
+        <label for="inputEmail4" class="form-label">OrderDate</label>
+        <input type="date" class="form-control" id="inputEmail4" asp-for="OrderDate">
+    </div>
+    <div class="col-8">
+        <label for="inputNanme4" class="form-label">CustomerName</label>
+        <select class="form-control" asp-for="CustomerID" asp-items="@(new SelectList(ViewBag.customerList, "CustomerID", "CustomerName"))"></select>
+        <option value="">Select Customer</option>
+        </select>
+    </div>
+    <div class="col-8">
+        <label for="inputAddress" class="form-label">PaymentMode</label>
+        <input type="text" class="form-control" id="inputAddress" asp-for="PaymentMode">
+    </div>
+    <div class="col-8">
+        <label for="inputNanme4" class="form-label">TotalAmount</label>
+        <input type="number" class="form-control" id="inputNanme4" asp-for="TotalAmount">
+    </div>
+    <div class="col-8">
+        <label for="inputNanme4" class="form-label">ShippingAddress</label>
+        <input type="text" class="form-control" id="inputNanme4" asp-for="ShippingAddress">
+    </div>
+
+    @* <div class="col-8">
+        <label for="inputNanme4" class="form-label">UserID</label>
+        <input type="text" class="form-control" id="inputNanme4" asp-for="UserID">
+    </div> *@
+    <div class="col-8">
+        <label for="inputNanme4" class="form-label">UserName</label>
+        <select class="form-control" asp-for="UserID" asp-items="@(new SelectList(ViewBag.userList, "UserID", "UserName"))"></select>
+            <option value="">Select User</option>
+        </select>
+    </div>
+    <div class="text-center col-8">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a><button type="reset" class="btn btn-secondary">Cancle</button></a>
+    </div>
+</form>

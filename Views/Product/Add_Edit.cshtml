@@ -1,0 +1,48 @@
+﻿@using System.Data
+@model Admin3.Models.ProductModel
+
+<h3>@TempData["insertMsg"]</h3>
+<form class="row g-3 m-3" asp-action="Save" asp-controller="Product" method="post">
+    <div class="col-8">
+        <input type="text" class="form-control" id="inputNanme4" hidden asp-for="ProductID">
+    </div>
+    <div class="col-8">
+        <label for="inputEmail4" class="form-label">ProductName</label>
+        <input type="text" asp-for="ProductName" class="form-control" id="inputEmail4" asp-for="ProductName">
+        <span asp-validation-for="ProductName" class="text-danger"></span>
+    </div>
+    <div class="col-8">
+        <label for="inputPassword4" class="form-label">ProductPrice</label>
+        <input type="number" class="form-control" asp-for="ProductPrice" id="inputPassword4" asp-for="ProductPrice">
+        <span asp-validation-for="ProductPrice" class="text-danger"></span>
+    </div>
+    <div class="col-8">
+        <label for="inputAddress"  class="form-label">ProductCode</label>
+        <input type="text" class="form-control" asp-for="ProductCode" id="inputAddress" asp-for="ProductCode">
+        <span asp-validation-for="ProductCode" class="text-danger"></span>
+    </div> 
+    <div class="col-8">
+        <label for="inputNanme4" class="form-label">Description</label>
+        <input type="text" class="form-control" asp-for="Description" id="inputNanme4" asp-for="Description">
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="col-8">
+        <label for="inputNanme4" class="form-label">UserName</label>
+        <select class="form-control" asp-for="UserID" asp-items="@(new SelectList(ViewBag.userList, "UserID", "UserName"))"></select>
+            <option value="">Select User</option>
+        </select>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="text-center col-8">
+        <button type="submit" class="btn btn-primary" >Submit</button>
+        <button type="reset" class="btn btn-secondary">Reset</button>
+    </div>
+</form>
+
+@* @section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+} *@

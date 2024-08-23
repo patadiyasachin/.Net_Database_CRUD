@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Form\ApexCharts.cshtml" />
+    <Content Remove="Views\OrderDetail\GetAll_OrderDetail.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Form\ApexCharts.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Form\ApexCharts.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\OrderDetail\GetAll_OrderDetail.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Chart\ApexCharts.cshtml" />
+    <None Include="Views\OrderDetail\GetAll_OrderDetail.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EnterpriseLibrary.Data.NetCore" Version="6.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\OrderDetail\GetAll_OrderDetail.cshtml" />
+  </ItemGroup>
+
+</Project>

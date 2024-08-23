@@ -1,0 +1,35 @@
+﻿@using System.Data
+@model UserModel
+<form class="row g-3 m-3" asp-action="Save" asp-controller="User" method="post">
+    <div class="col-8">
+        <input type="text" class="form-control" id="inputNanme4" name="UserID" asp-for="UserID" hidden>
+    </div>
+    <div class="col-8">
+        <label for="inputEmail4" class="form-label">UserName</label>
+        <input type="text" class="form-control" name="UserName" id="inputEmail4" asp-for="UserName">
+    </div>
+    <div class="col-8">
+        <label for="inputPassword4" class="form-label">Email</label>
+        <input type="email" class="form-control" name="Email" id="inputPassword4" asp-for="Email">
+    </div>
+    <div class="col-8">
+        <label for="inputAddress" class="form-label">Password</label>
+        <input type="password" class="form-control" name="Password" id="inputAddress" asp-for="Password">
+    </div>
+    <div class="col-8">
+        <label for="inputAddress" class="form-label">MobileNumber</label>
+        <input type="number" class="form-control" name="MobileNumber" id="inputAddress" asp-for="MobileNumber">
+    </div>
+    <div class="col-8">
+        <label for="inputAddress" class="form-label">Address</label>
+        <input type="text" class="form-control" name="Address" id="inputAddress" asp-for="Address">
+    </div>
+    <div class="col-8">
+        <label for="inputAddress" class="form-label">IsActive</label>
+        <input type="text" class="form-control" name="IsActive" id="inputAddress" asp-for="IsActive">
+    </div>
+    <div class="text-center col-8">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="reset" class="btn btn-secondary">Reset</button>
+    </div>
+</form>

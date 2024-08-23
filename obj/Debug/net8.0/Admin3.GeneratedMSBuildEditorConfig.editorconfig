@@ -1,0 +1,239 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Admin3
+build_property.RootNamespace = Admin3
+build_property.ProjectDir = D:\B.TECH\sem-5\Asp .net core\NiceAdmin (Admin3)\Admin3\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\B.TECH\sem-5\Asp .net core\NiceAdmin (Admin3)\Admin3
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Bills/Add_Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbHNcQWRkX0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Bills/GetBill_List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbHNcR2V0QmlsbF9MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Bills/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Chart/ApexCharts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRcQXBleENoYXJ0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Chart/ChartJs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRcQ2hhcnRKcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Chart/ECharts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRcRUNoYXJ0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Components/Accordion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xBY2NvcmRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Components/Alerts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xBbGVydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Components/Badges.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xCYWRnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Components/Breadcrumbs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xCcmVhZGNydW1icy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Components/Buttons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xCdXR0b25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Components/Cards.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xDYXJkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Components/Carousel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xDYXJvdXNlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Components/ListGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xMaXN0R3JvdXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Components/Modal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xNb2RhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Components/Pagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xQYWdpbmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Components/Progress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xQcm9ncmVzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Components/Spinners.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xTcGlubmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Components/Tabs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xUYWJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Components/Tooltips.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xUb29sdGlwcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Customer/Add_Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQWRkX0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Customer/GetCustomer_list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcR2V0Q3VzdG9tZXJfbGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Employee/AddEditEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWRkRWRpdEVtcGxveWVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Form/FormEditors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxGb3JtRWRpdG9ycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Form/FormElement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxGb3JtRWxlbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Form/FormLeyout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxGb3JtTGV5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Form/FormValidation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxGb3JtVmFsaWRhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Icons/BootstrapIcon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWNvbnNcQm9vdHN0cmFwSWNvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Icons/Boxicons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWNvbnNcQm94aWNvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Icons/RemixIcons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWNvbnNcUmVtaXhJY29ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/OrderDetail/Add_Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxcQWRkX0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/OrderDetail/getAllDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxcZ2V0QWxsRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/OrderDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Order/Add_Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQWRkX0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Order/GetAll_Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcR2V0QWxsX09yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Pages/BlankPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQmxhbmtQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Pages/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Pages/FAQ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcRkFRLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Pages/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Product/Add_Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGRfRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Product/GetAllProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRBbGxQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Tables/DataTables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGVzXERhdGFUYWJsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Tables/GenrealTables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFibGVzXEdlbnJlYWxUYWJsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/User/Add_Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBZGRfRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/User/GetAll_User.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxHZXRBbGxfVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bg34gw1b9n

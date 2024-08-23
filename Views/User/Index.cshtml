@@ -1,0 +1,29 @@
+﻿@model List<Admin3.Models.UserModel>
+<a asp-action="Add_Edit" asp-controller="User" class="btn btn-primary">Add</a>
+<table class="table datatable">
+    <thead>
+        <tr>
+            <th>UserName</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>MobileNo</th>
+            <th>Address</th>
+            <th>Active</th>
+            <th>Edit/Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>@user.Password</td>
+                <td>@user.MobileNumber</td>
+                <td>@user.Address</td>
+                <td>@user.IsActive</td>
+                <td><i class="fa-solid fa-pen-to-square"></i> &nbsp; &nbsp;<i class="fa-solid fa-trash" style="color: #EE4B2B"></i></td>
+            </tr>
+        }
+    </tbody>
+</table>

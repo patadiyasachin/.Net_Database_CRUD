@@ -1,0 +1,46 @@
+﻿@using System.Data
+@model DataTable
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="mb-0">Order Details</h2>
+        <a asp-action="Add_Edit" asp-controller="OrderDetail" class="btn btn-primary">
+            <i class="fas fa-plus"></i> Add New Detail
+        </a>
+    </div>
+
+    <table class="table table-striped table-hover table-bordered datatable">
+        <thead class="thead-dark">
+            <tr>
+                <th>Quantity</th>
+                <th>Amount</th>
+                <th>Total Amount</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (ViewBag.errormessage != null)
+            {
+                <tr>
+                    <td colspan="4" class="text-danger text-center">@ViewBag.errormessage</td>
+                </tr>
+            }
+            @foreach (DataRow dr in Model.Rows)
+            {
+                <tr>
+                    <td>@dr["Quantity"]</td>
+                    <td>@dr["Amount"]</td>
+                    <td>@dr["TotalAmount"]</td>
+                    <td class="text-center">
+                        <a asp-action="Add_Edit" asp-controller="OrderDetail" asp-route-orderDetailID="@dr["OrderDetailID"]" class="btn btn-sm btn-warning">
+                            <i class="fas fa-edit"></i> Edit
+                        </a>
+                        <a asp-action="DeleteOrderDetail" asp-controller="OrderDetail" asp-route-orderDetailID="@dr["OrderDetailID"]" class="btn btn-sm btn-danger">
+                            <i class="fas fa-trash-alt"></i> Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

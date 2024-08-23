@@ -1,0 +1,33 @@
+﻿@model List<Admin3.Models.CustomerModel>
+<a asp-action="Add_Edit" asp-controller="Customer" class="btn btn-primary">Add</a>
+<table class="table datatable">
+    <thead>
+        <tr>
+            <th>CustomerName</th>
+            <th>HomeAddress</th>
+            <th>Email</th>
+            <th>Mobile No</th>
+            <th>GST NO</th>
+            <th>City Name</th>
+            <th>Pin Code</th>
+            <th>Net Amount</th>
+            <th>Edit/Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in Model)
+        {
+            <tr>
+                <td>@customer.CustomerName</td>
+                <td>@customer.HomeAddress</td>
+                <td>@customer.Email</td>
+                <td>@customer.MobileNo</td>
+                <td>@customer.GSTNO</td>
+                <td>@customer.CityName</td>
+                <td>@customer.PinCode</td>
+                <td>@customer.NetAmount</td>
+                <td><i class="fa-solid fa-pen-to-square"></i> &nbsp; &nbsp;<i class="fa-solid fa-trash" style="color: #EE4B2B"></i></td>
+            </tr>
+        }
+    </tbody>
+</table>

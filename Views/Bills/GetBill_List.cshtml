@@ -1,0 +1,118 @@
+﻿@using System.Data
+@model DataTable
+
+<div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmationModalLabel">Confirm Deletion</h5>
+                @* <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button> *@
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to delete this product?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <a id="confirmDelete" href="#" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmationModalLabel">Confirm Deletion</h5>
+                @* <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button> *@
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to delete this product?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <a id="confirmDelete" href="#" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="mb-0">Bill List</h2>
+        <a asp-action="Add_Edit" asp-controller="Bills" class="btn btn-primary">
+            <i class="fas fa-plus"></i> Add New Bill
+        </a>
+    </div>
+
+    <table class="table table-striped table-hover table-bordered datatable">
+        <thead class="thead-dark">
+            <tr>
+                <th>Bill ID</th>
+                <th>Bill Number</th>
+                <th>Bill Date</th>
+                <th>Order ID</th>
+                <th>Total Amount</th>
+                <th>Discount</th>
+                <th>Net Amount</th>
+                <th>User ID</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (ViewBag.errormessage != null)
+            {
+                <tr>
+                    <td colspan="9" class="text-danger text-center">@ViewBag.errormessage</td>
+                </tr>
+            }
+            @foreach (DataRow dr in Model.Rows)
+            {
+                <tr>
+                    <td>@dr["BillID"]</td>
+                    <td>@dr["BillNumber"]</td>
+                    <td>@dr["BillDate"]</td>
+                    <td>@dr["OrderID"]</td>
+                    <td>@dr["TotalAmount"]</td>
+                    <td>@dr["Discount"]</td>
+                    <td>@dr["NetAmount"]</td>
+                    <td>@dr["UserID"]</td>
+                    <td class="text-center">
+                        <a asp-action="Add_Edit" asp-controller="Bills" asp-route-billID="@dr["BillID"]" class="btn btn-sm btn-warning">
+                            <i class="fas fa-edit"></i> Edit
+                        </a>
+                        <a asp-action="DeleteBill" asp-controller="Bills" asp-route-billID="@dr["BillID"]" class="btn btn-sm btn-danger delete-button">
+                            <i class="fas fa-trash-alt"></i> Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.delete-button').on('click', function (e) {
+            e.preventDefault(); // Prevent the default action
+            var deleteUrl = $(this).attr('href'); // Get the URL for deletion
+
+            // Set the href of the confirm button in the modal
+            $('#confirmDelete').attr('href', deleteUrl);
+
+            // Show the confirmation modal
+            $('#confirmationModal').modal('show');
+        });
+
+        $('#confirmDelete').on('click', function () {
+            // Close the modal
+            $('#confirmationModal').modal('hide');
+        });
+    });
+</script>

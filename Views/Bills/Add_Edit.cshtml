@@ -1,0 +1,52 @@
+﻿@model BillsModel
+<form class="row g-3 m-3" asp-action="Save" asp-controller="Bills" method="post">
+    <div class="col-8">
+        <input type="text" class="form-control" id="inputNanme4" hidden asp-for="BillID">
+    </div>
+    <div class="col-8">
+        <label for="inputEmail4" class="form-label">BillNumber</label>
+        <input type="number" class="form-control" id="inputEmail4" asp-for="BillNumber">
+    </div>
+    <div class="col-8">
+        <label for="inputPassword4" class="form-label">BillDate</label>
+        <input type="date" class="form-control" id="inputPassword4" asp-for="BillDate">
+    </div>
+    <div class="col-8">
+        <label for="inputAddress" class="form-label">OrderID</label>
+        <input type="text" class="form-control" id="inputAddress" asp-for="OrderID">
+    </div>
+    @* <div class="col-8">
+        <label for="inputNanme4" class="form-label">Shipping Address</label>
+        <select class="form-control" asp-for="OrderID" asp-items="@(new SelectList(ViewBag.orderlist, "OrderID", "ShippingAddress"))"></select>
+        <option value="">Select Address</option>
+        </select>
+    </div> *@
+    <div class="col-8">
+        <label for="inputNanme4" class="form-label">TotalAmount</label>
+        <input type="number" class="form-control" id="inputNanme4" asp-for="TotalAmount">
+    </div>
+    <div class="col-8">
+        <label for="inputNanme4" class="form-label">Discount</label>
+        <input type="number" class="form-control" id="inputNanme4" asp-for="Discount">
+    </div>
+    <div class="col-8">
+        <label for="inputNanme4" class="form-label">NetAmount</label>
+        <input type="number" class="form-control" id="inputNanme4" asp-for="NetAmount">
+    </div>
+    <div class="col-8">
+        <label for="inputNanme4" class="form-label">UserID</label>
+        <input type="text" class="form-control" id="inputNanme4" asp-for="UserID">
+    </div>
+
+    @* <div class="col-8">
+        <label for="inputNanme4" class="form-label">UserName</label>
+        <select class="form-control" asp-for="UserID" asp-items="@(new SelectList(ViewBag.userlist, "UserID", "UserName"))"></select>
+        <option value="">Select User</option>
+        </select>
+    </div> *@
+
+    <div class="text-center col-8">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="reset" class="btn btn-secondary">Reset</button>
+    </div>
+</form>

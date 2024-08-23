@@ -1,0 +1,25 @@
+﻿@model List<Admin3.Models.OrderModel>
+<a asp-action="Add_Edit" asp-controller="Order" class="btn btn-primary">Add</a>
+<table class="table datatable">
+    <thead>
+        <tr>
+            <th>OrderDate</th>
+            <th>PaymentMode</th>
+            <th>TotalAmount</th>
+            <th>ShippingAddress</th>
+            <th>Edit/Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.OrderDate</td>
+                <td>@order.PaymentMode</td>
+                <td>@order.TotalAmount</td>
+                <td>@order.ShippingAddress</td>
+                <td><i class="fa-solid fa-pen-to-square"></i> &nbsp; &nbsp;<i class="fa-solid fa-trash" style="color: #EE4B2B"></i></td>
+            </tr>
+        }
+    </tbody>
+</table>
