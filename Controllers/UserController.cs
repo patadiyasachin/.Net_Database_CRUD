@@ -14,7 +14,6 @@ namespace Admin3.Controllers
         };
 
         private IConfiguration configuration;
-
         public UserController(IConfiguration configuration)
         {
             this.configuration = configuration;
@@ -24,7 +23,6 @@ namespace Admin3.Controllers
         {
             return View(userModel);
         }
-
 
         public IActionResult Save(UserModel userModel)
         {
@@ -135,18 +133,17 @@ namespace Admin3.Controllers
                 cmd.CommandText = "PR_User_Delete";
                 cmd.Parameters.AddWithValue("UserID", userID);
                 cmd.ExecuteNonQuery();
-                return RedirectToAction("GetAll_User");
+                TempData["SuccessMessage"] = "Record Deleted Successfully !";
             }
             catch (SqlException ex) when (ex.Number == 547) // Foreign key conflict
             {
-                ViewBag.ErrorMessage = "Cannot delete this product due to related records.";
-                return RedirectToAction("GetAll_User");
+                TempData["ErrorMessage"] = "You can not delete this record !";
             }
             catch (Exception ex)
             {
-                ViewBag.ErrorMessage = "Something went wrong while deleting the product.";
-                return RedirectToAction("GetAll_User");
+                TempData["ErrorMessage"] = "You can not delete this record !";
             }
+            return RedirectToAction("GetAll_User");
         }
     }
 }

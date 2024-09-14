@@ -168,13 +168,17 @@ namespace Admin3.Controllers
                 cmd.CommandText = "PR_Customer_Delete";
                 cmd.Parameters.AddWithValue("CustomerID", customerID);
                 cmd.ExecuteNonQuery();
-                return RedirectToAction("GetCustomer_list");
+                TempData["SuccessMessage"] = "Record Deleted Successfully !";
             }
-            catch (Exception e)
+            catch (SqlException ex) when (ex.Number == 547) // Foreign key conflict
             {
-                ViewBag.errMsg = "Something went wrong !!";
-                return View();
+                TempData["ErrorMessage"] = "You can not delete this record !";
             }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = "You can not delete this record !";
+            }
+            return RedirectToAction("GetCustomer_list");
         }
     }
 }

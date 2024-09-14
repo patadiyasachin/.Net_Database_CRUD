@@ -45,6 +45,7 @@ namespace Admin3.Controllers
             }
             return list;
         }
+
         public List<User_dropDown> combo_user()
         {
             string connectionstr1 = this.configuration.GetConnectionString("myConnString");
@@ -185,13 +186,17 @@ namespace Admin3.Controllers
                 cmd.CommandText = "PR_Bills_Delete";
                 cmd.Parameters.AddWithValue("@BillID", billID);
                 cmd.ExecuteNonQuery();
-                return RedirectToAction("GetBill_List");
+                TempData["SuccessMessage"] = "Record Deleted Successfully !";
+            }
+            catch (SqlException ex) when (ex.Number == 547) // Foreign key conflict
+            {
+                TempData["ErrorMessage"] = "You can not delete this record !";
             }
             catch (Exception ex)
             {
-                ViewBag.errormessage = "Something went wrong !!";
-                return View();
+                TempData["ErrorMessage"] = "You can not delete this record !";
             }
+            return RedirectToAction("GetBill_List");
         }
     }
 }

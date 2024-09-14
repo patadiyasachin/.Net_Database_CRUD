@@ -30,6 +30,11 @@ namespace Admin3.Controllers
 
         public IActionResult Save(ProductModel proModel)
         {
+            if (string.IsNullOrEmpty(proModel.ProductName))
+            {
+                ModelState.AddModelError("ProductName","ProductName is Required");
+            }
+
             if (ModelState.IsValid)
             {
                 string connectionstr = this.configuration.GetConnectionString("myConnString");
@@ -160,18 +165,17 @@ namespace Admin3.Controllers
                 cmd.CommandText = "Product_Delete";
                 cmd.Parameters.AddWithValue("ProductId", productId);
                 cmd.ExecuteNonQuery();
-                return RedirectToAction("GetAllProduct");
+                TempData["SuccessMessage"] = "Record Deleted Successfully !";
             }
             catch (SqlException ex) when (ex.Number == 547) // Foreign key conflict
             {
-                ViewBag.ErrorMessage = "Cannot delete this product due to related records.";
-                return RedirectToAction("GetAllProduct");
+                TempData["ErrorMessage"] = "You Can Not Delete this record !";
             }
             catch (Exception ex)
             {
-                ViewBag.ErrorMessage = "Something went wrong while deleting the product.";
-                return RedirectToAction("GetAllProduct");
+                TempData["ErrorMessage"] = "You Can Not Delete this record !";
             }
+            return RedirectToAction("GetAllProduct");
         }
     }
 }

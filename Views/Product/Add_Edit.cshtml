@@ -3,9 +3,8 @@
 
 <h3>@TempData["insertMsg"]</h3>
 <form class="row g-3 m-3" asp-action="Save" asp-controller="Product" method="post">
-    <div class="col-8">
-        <input type="text" class="form-control" id="inputNanme4" hidden asp-for="ProductID">
-    </div>
+    <input type="hidden" asp-for="ProductID" class="form-control">
+
     <div class="col-8">
         <label for="inputEmail4" class="form-label">ProductName</label>
         <input type="text" asp-for="ProductName" class="form-control" id="inputEmail4" asp-for="ProductName">
@@ -27,12 +26,20 @@
         <span asp-validation-for="Description" class="text-danger"></span>
     </div>
 
-    <div class="col-8">
+    @* <div class="col-8">
         <label for="inputNanme4" class="form-label">UserName</label>
         <select class="form-control" asp-for="UserID" asp-items="@(new SelectList(ViewBag.userList, "UserID", "UserName"))"></select>
             <option value="">Select User</option>
         </select>
-        <span asp-validation-for="Description" class="text-danger"></span>
+    </div> *@
+
+
+    <div class="col-8">
+        <label for="inputNanme4" class="form-label">UserName</label>
+        <select class="form-control" asp-for="UserID" asp-items="@(new SelectList(ViewBag.userList, "UserID", "UserName"))">
+            <option value="">Select User</option>
+        </select>
+        <span asp-validation-for="UserID" class="text-danger"></span>
     </div>
 
     <div class="text-center col-8">

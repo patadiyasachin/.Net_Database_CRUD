@@ -74,7 +74,6 @@ namespace Admin3.Controllers
             }
         }
 
-
         public List<User_dropDown> combo_user()
         {
             string connectionstr1 = this.configuration.GetConnectionString("myConnString");
@@ -150,7 +149,6 @@ namespace Admin3.Controllers
             return list;
         }
 
-
         public IActionResult Add_Edit(int? orderDetailID)
         {
             ViewBag.orderList = combo_order();
@@ -214,13 +212,17 @@ namespace Admin3.Controllers
                 cmd.CommandText = "PR_OrderDetail_Delete";
                 cmd.Parameters.AddWithValue("OrderDetailID", orderDetailID);
                 cmd.ExecuteNonQuery();
-                return RedirectToAction("GetAll_OrderDetail");
+                TempData["SuccessMessage"] = "Record Deleted Successfully !";
             }
-            catch (Exception e)
+            catch (SqlException ex) when (ex.Number == 547) // Foreign key conflict
             {
-                ViewBag.errMsg = "Something went wrong !!";
-                return View();
+                TempData["ErrorMessage"] = "You can not delete this record !";
             }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = "You can not delete this record !";
+            }
+            return RedirectToAction("GetAll_OrderDetail");
         }
     }
 }
