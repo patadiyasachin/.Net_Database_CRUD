@@ -6,6 +6,7 @@
     <div class="col-8">
         <label for="inputEmail4" class="form-label">OrderID</label>
         <input type="text" class="form-control" id="inputEmail4" asp-for="OrderID">
+        <span asp-validation-for="OrderID" class="text-danger"></span>
     </div>
 
     <div class="col-8">
@@ -13,6 +14,7 @@
         <select class="form-control" asp-for="ProductID" asp-items="@(new SelectList(ViewBag.orderList, "OrderID", "ShippingAddress"))"></select>
         <option value="">Select Address</option>
         </select>
+        <span asp-validation-for="ProductID" class="text-danger"></span>
     </div>
 
     @* <div class="col-8">
@@ -25,27 +27,33 @@
         <select class="form-control" asp-for="ProductID" asp-items="@(new SelectList(ViewBag.productList, "ProductID", "ProductName"))"></select>
         <option value="">Select Product</option>
         </select>
+        <span asp-validation-for="ProductID" class="text-danger"></span>
     </div>
 
 
     <div class="col-8">
         <label for="inputAddress" class="form-label">Quantity</label>
         <input type="number" class="form-control" id="inputAddress" asp-for="Quantity">
+        <span asp-validation-for="Quantity" class="text-danger"></span>
     </div>
     <div class="col-8">
         <label for="inputNanme4" class="form-label">Amount</label>
         <input type="number" class="form-control" id="inputNanme4" asp-for="Amount">
+        <span asp-validation-for="Amount" class="text-danger"></span>
     </div>
     <div class="col-8">
         <label for="inputNanme4" class="form-label">TotalAmount</label>
         <input type="number" class="form-control" id="inputNanme4" asp-for="TotalAmount">
+        <span asp-validation-for="TotalAmount" class="text-danger"></span>
     </div>
     <div class="col-8">
         <label for="inputNanme4" class="form-label">UserName</label>
         <select class="form-control" asp-for="UserID" asp-items="@(new SelectList(ViewBag.userList, "UserID", "UserName"))"></select>
         <option value="">Select User</option>
         </select>
+        <span asp-validation-for="UserID" class="text-danger"></span>
     </div>
+
     <div class="text-center col-8">
         <button type="submit" class="btn btn-primary">Submit</button>
         <button type="reset" class="btn btn-secondary">Reset</button>

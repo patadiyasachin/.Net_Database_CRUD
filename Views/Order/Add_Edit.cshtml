@@ -6,24 +6,29 @@
     <div class="col-8">
         <label for="inputEmail4" class="form-label">OrderDate</label>
         <input type="date" class="form-control" id="inputEmail4" asp-for="OrderDate">
+        <span asp-validation-for="OrderDate" class="text-danger"></span>
     </div>
     <div class="col-8">
         <label for="inputNanme4" class="form-label">CustomerName</label>
         <select class="form-control" asp-for="CustomerID" asp-items="@(new SelectList(ViewBag.customerList, "CustomerID", "CustomerName"))"></select>
         <option value="">Select Customer</option>
         </select>
+        <span asp-validation-for="CustomerID" class="text-danger"></span>
     </div>
     <div class="col-8">
         <label for="inputAddress" class="form-label">PaymentMode</label>
         <input type="text" class="form-control" id="inputAddress" asp-for="PaymentMode">
+        <span asp-validation-for="PaymentMode" class="text-danger"></span>
     </div>
     <div class="col-8">
         <label for="inputNanme4" class="form-label">TotalAmount</label>
         <input type="number" class="form-control" id="inputNanme4" asp-for="TotalAmount">
+        <span asp-validation-for="TotalAmount" class="text-danger"></span>
     </div>
     <div class="col-8">
         <label for="inputNanme4" class="form-label">ShippingAddress</label>
         <input type="text" class="form-control" id="inputNanme4" asp-for="ShippingAddress">
+        <span asp-validation-for="ShippingAddress" class="text-danger"></span>
     </div>
 
     @* <div class="col-8">
@@ -35,6 +40,7 @@
         <select class="form-control" asp-for="UserID" asp-items="@(new SelectList(ViewBag.userList, "UserID", "UserName"))"></select>
             <option value="">Select User</option>
         </select>
+        <span asp-validation-for="UserID" class="text-danger"></span>
     </div>
     <div class="text-center col-8">
         <button type="submit" class="btn btn-primary">Submit</button>

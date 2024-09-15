@@ -1,7 +1,6 @@
 ﻿@using System.Data
 @model Admin3.Models.ProductModel
 
-<h3>@TempData["insertMsg"]</h3>
 <form class="row g-3 m-3" asp-action="Save" asp-controller="Product" method="post">
     <input type="hidden" asp-for="ProductID" class="form-control">
 
@@ -32,7 +31,6 @@
             <option value="">Select User</option>
         </select>
     </div> *@
-
 
     <div class="col-8">
         <label for="inputNanme4" class="form-label">UserName</label>

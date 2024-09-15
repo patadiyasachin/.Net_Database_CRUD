@@ -6,14 +6,17 @@
     <div class="col-8">
         <label for="inputEmail4" class="form-label">BillNumber</label>
         <input type="number" class="form-control" id="inputEmail4" asp-for="BillNumber">
+        <span asp-validation-for="BillNumber" class="text-danger"></span>
     </div>
     <div class="col-8">
         <label for="inputPassword4" class="form-label">BillDate</label>
         <input type="date" class="form-control" id="inputPassword4" asp-for="BillDate">
+        <span asp-validation-for="BillDate" class="text-danger"></span>
     </div>
     <div class="col-8">
         <label for="inputAddress" class="form-label">OrderID</label>
         <input type="text" class="form-control" id="inputAddress" asp-for="OrderID">
+        <span asp-validation-for="OrderID" class="text-danger"></span>
     </div>
     @* <div class="col-8">
         <label for="inputNanme4" class="form-label">Shipping Address</label>
@@ -24,18 +27,22 @@
     <div class="col-8">
         <label for="inputNanme4" class="form-label">TotalAmount</label>
         <input type="number" class="form-control" id="inputNanme4" asp-for="TotalAmount">
+        <span asp-validation-for="TotalAmount" class="text-danger"></span>
     </div>
     <div class="col-8">
         <label for="inputNanme4" class="form-label">Discount</label>
         <input type="number" class="form-control" id="inputNanme4" asp-for="Discount">
+        <span asp-validation-for="Discount" class="text-danger"></span>
     </div>
     <div class="col-8">
         <label for="inputNanme4" class="form-label">NetAmount</label>
         <input type="number" class="form-control" id="inputNanme4" asp-for="NetAmount">
+        <span asp-validation-for="NetAmount" class="text-danger"></span>
     </div>
     <div class="col-8">
         <label for="inputNanme4" class="form-label">UserID</label>
         <input type="text" class="form-control" id="inputNanme4" asp-for="UserID">
+        <span asp-validation-for="UserID" class="text-danger"></span>
     </div>
 
     @* <div class="col-8">

@@ -6,13 +6,15 @@ namespace Admin3.Models
     {
         public int? ProductID { get; set; }
         [Required(ErrorMessage ="please Enter ProductName")]
-        public string? ProductName { get; set; }
+        public string ProductName { get; set; }
         [Required(ErrorMessage = "please Enter ProductPrice")]
         public decimal ProductPrice { get; set; }
         [Required(ErrorMessage = "please Enter ProductCode")]
         public string ProductCode { get; set; }
         [Required(ErrorMessage ="please Enter Description")]
         public string Description { get; set; }
+
+        [Required(ErrorMessage = "please Select User")]
         public int UserID { get; set; }
     }
 

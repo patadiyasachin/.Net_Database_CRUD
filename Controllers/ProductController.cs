@@ -14,7 +14,7 @@ namespace Admin3.Controllers
             this.configuration = configuration;
         }
 
-        List<ProductModel> proModel=new List<ProductModel>
+        List<ProductModel> proModel = new List<ProductModel>
         {
             new ProductModel{ProductID = 1,ProductName="Iphone12",ProductPrice=100000,ProductCode="IOS",Description="Nice Product",UserID=1},
             new ProductModel{ProductID = 2,ProductName="Iphone13",ProductPrice=110000,ProductCode="IOS",Description="Nice Product",UserID=2},
@@ -28,61 +28,54 @@ namespace Admin3.Controllers
             return View(proModel);
         }
 
+        [HttpPost]
         public IActionResult Save(ProductModel proModel)
         {
             if (string.IsNullOrEmpty(proModel.ProductName))
             {
-                ModelState.AddModelError("ProductName","ProductName is Required");
+                ModelState.AddModelError("ProductName", "ProductName is Required");
             }
+            string connectionstr = this.configuration.GetConnectionString("myConnString");
+            DataTable dt = new DataTable();
+            SqlConnection conn = new SqlConnection(connectionstr);
+            conn.Open();
+            SqlCommand cmd = conn.CreateCommand();
+            cmd.CommandType = CommandType.StoredProcedure;
 
-            if (ModelState.IsValid)
+            if (proModel.ProductID == null)
             {
-                string connectionstr = this.configuration.GetConnectionString("myConnString");
-                DataTable dt = new DataTable();
-                SqlConnection conn = new SqlConnection(connectionstr);
-                conn.Open();
-                SqlCommand cmd = conn.CreateCommand();
-                cmd.CommandType = CommandType.StoredProcedure;
-
-                if (proModel.ProductID == null)
-                {
-                    cmd.CommandText = "Proc_Insert";
-                    cmd.Parameters.AddWithValue("ProductName", proModel.ProductName);
-                    cmd.Parameters.AddWithValue("ProductPrice", proModel.ProductPrice);
-                    cmd.Parameters.AddWithValue("ProductCode", proModel.ProductCode);
-                    cmd.Parameters.AddWithValue("Description", proModel.Description);
-                    cmd.Parameters.AddWithValue("UserID", proModel.UserID);
-                }
-                else
-                {
-                    cmd.CommandText = "Product_Update";
-                    cmd.Parameters.AddWithValue("ProductId", SqlDbType.Int).Value = proModel.ProductID;
-                    cmd.Parameters.AddWithValue("ProductName", SqlDbType.VarChar).Value = proModel.ProductName;
-                    cmd.Parameters.AddWithValue("ProductPrice", SqlDbType.Decimal).Value = proModel.ProductPrice;
-                    cmd.Parameters.AddWithValue("ProductCode", SqlDbType.VarChar).Value = proModel.ProductCode;
-                    cmd.Parameters.AddWithValue("Description", SqlDbType.VarChar).Value = proModel.Description;
-                    cmd.Parameters.AddWithValue("UserID", SqlDbType.Int).Value = proModel.UserID;
-                }
-
-                if (Convert.ToBoolean(cmd.ExecuteNonQuery()))
-                {
-                    if (proModel.ProductID == null)
-                    {
-                        TempData["insertMsg"] = "Reconrd Inserted Successfully .. ";
-                    }
-                    else
-                    {
-                        TempData["insertMsg"] = "Reconrd Updated Successfully .. ";
-                    }
-                }
-
-                conn.Close();
-                return RedirectToAction("GetAllProduct");
+                cmd.CommandText = "Proc_Insert";
+                cmd.Parameters.AddWithValue("ProductName", proModel.ProductName);
+                cmd.Parameters.AddWithValue("ProductPrice", proModel.ProductPrice);
+                cmd.Parameters.AddWithValue("ProductCode", proModel.ProductCode);
+                cmd.Parameters.AddWithValue("Description", proModel.Description);
+                cmd.Parameters.AddWithValue("UserID", proModel.UserID);
             }
             else
             {
-                return View("Add_Edit",proModel);
-            } 
+                cmd.CommandText = "Product_Update";
+                cmd.Parameters.AddWithValue("ProductId", SqlDbType.Int).Value = proModel.ProductID;
+                cmd.Parameters.AddWithValue("ProductName", SqlDbType.VarChar).Value = proModel.ProductName;
+                cmd.Parameters.AddWithValue("ProductPrice", SqlDbType.Decimal).Value = proModel.ProductPrice;
+                cmd.Parameters.AddWithValue("ProductCode", SqlDbType.VarChar).Value = proModel.ProductCode;
+                cmd.Parameters.AddWithValue("Description", SqlDbType.VarChar).Value = proModel.Description;
+                cmd.Parameters.AddWithValue("UserID", SqlDbType.Int).Value = proModel.UserID;
+            }
+
+            if (Convert.ToBoolean(cmd.ExecuteNonQuery()))
+            {
+                if (proModel.ProductID == null)
+                {
+                    TempData["insertMsg"] = "Reconrd Inserted Successfully .. ";
+                }
+                else
+                {
+                    TempData["insertMsg"] = "Reconrd Updated Successfully .. ";
+                }
+            }
+
+            conn.Close();
+            return RedirectToAction("GetAllProduct");
         }
 
         public IActionResult Add_Edit(int? productId)
@@ -123,13 +116,13 @@ namespace Admin3.Controllers
                 SqlDataReader dr = cmd.ExecuteReader();
                 dt.Load(dr);
 
-                ProductModel proModel=new ProductModel();
+                ProductModel proModel = new ProductModel();
                 foreach (DataRow d in dt.Rows)
                 {
                     proModel.ProductID = Convert.ToInt32(d["ProductId"]);
                     proModel.ProductName = d["ProductName"].ToString();
                     proModel.ProductPrice = Convert.ToDecimal(d["ProductPrice"]);
-                    proModel.ProductCode= d["ProductCode"].ToString();
+                    proModel.ProductCode = d["ProductCode"].ToString();
                     proModel.Description = d["Description"].ToString();
                     proModel.UserID = Convert.ToInt32(d["UserID"]);
                 }
@@ -142,13 +135,13 @@ namespace Admin3.Controllers
         public IActionResult GetAllProduct()
         {
             string connectionstr = this.configuration.GetConnectionString("myConnString");
-            DataTable dt=new DataTable();
+            DataTable dt = new DataTable();
             SqlConnection conn = new SqlConnection(connectionstr);
             conn.Open();
             SqlCommand cmd = conn.CreateCommand();
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.CommandText = "Product_SelectAll";
-            SqlDataReader dr=cmd.ExecuteReader();
+            SqlDataReader dr = cmd.ExecuteReader();
             dt.Load(dr);
             return View(dt);
         }
