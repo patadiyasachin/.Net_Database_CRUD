@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 namespace Admin3.Controllers
 {
+    [CheckAccess]
     public class ProductController : Controller
     {
         private IConfiguration configuration;

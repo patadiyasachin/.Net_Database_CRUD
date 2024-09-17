@@ -3,6 +3,74 @@
   "WorkspaceRootPath": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\views\\shared\\_layout_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:views\\shared\\_layout_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\views\\pages\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:views\\pages\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\views\\order\\add_edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:views\\order\\add_edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\views\\product\\add_edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:views\\product\\add_edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\commonvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:commonvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\controllers\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:controllers\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\views\\orderdetail\\add_edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:views\\orderdetail\\add_edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\checkaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:checkaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|d:\\b.tech\\sem-5\\asp .net core\\niceadmin (admin3)\\admin3\\views\\customer\\add_edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{45B95FFD-31CA-470A-B61F-B111F37BAFFF}|Admin3.csproj|solutionrelative:views\\customer\\add_edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -18,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,20 +94,240 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Add_Edit.cshtml",
-              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Customer\\Add_Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customer\\Add_Edit.cshtml",
-              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Customer\\Add_Edit.cshtml",
-              "RelativeToolTip": "Views\\Customer\\Add_Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Order\\Add_Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Add_Edit.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Order\\Add_Edit.cshtml",
+              "RelativeToolTip": "Views\\Order\\Add_Edit.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACUAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-15T12:41:55.728Z",
+              "WhenOpened": "2024-09-17T15:53:27.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout_login.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Shared\\_Layout_login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout_login.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Shared\\_Layout_login.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout_login.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T08:08:20.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Pages\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pages\\Profile.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Pages\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Pages\\Profile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T15:58:11.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAywJMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:37:25.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAqwGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T15:13:36.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Login.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "Views\\User\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T14:45:15.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BillsController.cs",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\BillsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BillsController.cs",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\BillsController.cs",
+              "RelativeToolTip": "Controllers\\BillsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:33:52.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:34:00.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Add_Edit.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Product\\Add_Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Add_Edit.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Product\\Add_Edit.cshtml",
+              "RelativeToolTip": "Views\\Product\\Add_Edit.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T15:50:40.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CommonVariable.cs",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\CommonVariable.cs",
+              "RelativeDocumentMoniker": "CommonVariable.cs",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\CommonVariable.cs",
+              "RelativeToolTip": "CommonVariable.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:57:15.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderDetailController.cs",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\OrderDetailController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderDetailController.cs",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\OrderDetailController.cs",
+              "RelativeToolTip": "Controllers\\OrderDetailController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:33:39.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:33:30.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Add_Edit.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\OrderDetail\\Add_Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\OrderDetail\\Add_Edit.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\OrderDetail\\Add_Edit.cshtml",
+              "RelativeToolTip": "Views\\OrderDetail\\Add_Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T15:15:25.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:35:51.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:42:13.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CheckAccess.cs",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\CheckAccess.cs",
+              "RelativeDocumentMoniker": "CheckAccess.cs",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\CheckAccess.cs",
+              "RelativeToolTip": "CheckAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:54:24.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:06:01.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Add_Edit.cshtml",
+              "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Customer\\Add_Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Add_Edit.cshtml",
+              "ToolTip": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Views\\Customer\\Add_Edit.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Add_Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T12:41:55.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "CustomerModel.cs",
               "DocumentMoniker": "D:\\B.TECH\\sem-5\\Asp .net core\\NiceAdmin (Admin3)\\Admin3\\Models\\CustomerModel.cs",
               "RelativeDocumentMoniker": "Models\\CustomerModel.cs",
@@ -47,8 +335,7 @@
               "RelativeToolTip": "Models\\CustomerModel.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAswCEAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T12:41:47.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-15T12:41:47.884Z"
             }
           ]
         }

@@ -4,6 +4,7 @@ using System.Diagnostics;
 
 namespace Admin3.Controllers
 {
+    [CheckAccess]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

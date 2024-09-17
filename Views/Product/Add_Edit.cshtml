@@ -35,7 +35,7 @@
     <div class="col-8">
         <label for="inputNanme4" class="form-label">UserName</label>
         <select class="form-control" asp-for="UserID" asp-items="@(new SelectList(ViewBag.userList, "UserID", "UserName"))">
-            <option value="">Select User</option>
+            <option value="">Choose...</option>
         </select>
         <span asp-validation-for="UserID" class="text-danger"></span>
     </div>

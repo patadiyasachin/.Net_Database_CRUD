@@ -11,7 +11,7 @@
     <div class="col-8">
         <label for="inputNanme4" class="form-label">CustomerName</label>
         <select class="form-control" asp-for="CustomerID" asp-items="@(new SelectList(ViewBag.customerList, "CustomerID", "CustomerName"))"></select>
-        <option value="">Select Customer</option>
+        <option value=""></option>
         </select>
         <span asp-validation-for="CustomerID" class="text-danger"></span>
     </div>
@@ -38,7 +38,7 @@
     <div class="col-8">
         <label for="inputNanme4" class="form-label">UserName</label>
         <select class="form-control" asp-for="UserID" asp-items="@(new SelectList(ViewBag.userList, "UserID", "UserName"))"></select>
-            <option value="">Select User</option>
+        <option value=""></option>
         </select>
         <span asp-validation-for="UserID" class="text-danger"></span>
     </div>

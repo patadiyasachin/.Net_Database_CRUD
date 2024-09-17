@@ -1,8 +1,10 @@
-var builder = WebApplication.CreateBuilder(args);
+﻿var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
 
+
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30); // Set session timeout
@@ -10,6 +12,7 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true; // Set if session cookie is essential
 });
 
+builder.Services.AddControllersWithViews();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -24,6 +27,12 @@ app.UseRouting();
 app.UseSession();
 
 app.UseAuthorization();
+
+app.UseHttpsRedirection();
+
+// enables the authentication middleware in ASP.NET Core to handle user authentication for securing endpoints.​
+app.UseAuthentication();
+
 
 app.MapControllerRoute(
     name: "default",

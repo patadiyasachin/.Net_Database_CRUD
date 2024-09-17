@@ -4,6 +4,7 @@ using System.Data.SqlClient;
 using System.Data;
 namespace Admin3.Controllers
 {
+    [CheckAccess]
     public class OrderController : Controller
     {
         private IConfiguration configuration;

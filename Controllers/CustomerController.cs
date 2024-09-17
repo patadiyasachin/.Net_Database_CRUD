@@ -5,6 +5,7 @@ using System.Data;
 
 namespace Admin3.Controllers
 {
+    [CheckAccess]
     public class CustomerController : Controller
     {
 
