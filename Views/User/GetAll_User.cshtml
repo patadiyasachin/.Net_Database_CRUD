@@ -75,16 +75,7 @@
                     @* <td>@dr["Password"]</td> *@
                     <td>@dr["MobileNo"]</td>
                     <td>@dr["Address"]</td>
-                    <td>
-                        @if (Convert.ToBoolean(dr["IsActive"]))
-                        {
-                            <span>Active</span>
-                        }
-                        else
-                        {
-                            <span>Inactive</span>
-                        }
-                    </td>
+                    <td>@dr["IsActive"]</td>
                     <td class="text-center">
                         <a asp-action="Add_Edit" asp-controller="User" asp-route-userID="@dr["UserID"]" class="btn btn-sm btn-warning">
                             <i class="fas fa-edit"></i> Edit

@@ -198,5 +198,39 @@ namespace Admin3.Controllers
             HttpContext.Session.Clear();
             return RedirectToAction("Login", "User");
         }
+
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        public IActionResult UserRegister(UserRegisterModel userRegisterModel)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    string connectionString = this.configuration.GetConnectionString("myConnString");
+                    SqlConnection sqlConnection = new SqlConnection(connectionString);
+                    sqlConnection.Open();
+                    SqlCommand sqlCommand = sqlConnection.CreateCommand();
+                    sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
+                    sqlCommand.CommandText = "PR_User_Register";
+                    sqlCommand.Parameters.Add("@UserName", SqlDbType.VarChar).Value = userRegisterModel.UserName;
+                    sqlCommand.Parameters.Add("@Password", SqlDbType.VarChar).Value = userRegisterModel.Password;
+                    sqlCommand.Parameters.Add("@Email", SqlDbType.VarChar).Value = userRegisterModel.Email;
+                    sqlCommand.Parameters.Add("@MobileNo", SqlDbType.VarChar).Value = userRegisterModel.MobileNumber;
+                    sqlCommand.Parameters.Add("@Address", SqlDbType.VarChar).Value = userRegisterModel.Address;
+                    sqlCommand.ExecuteNonQuery();
+                    return RedirectToAction("Login", "User");
+                }
+            }
+            catch (Exception e)
+            {
+                TempData["ErrorMessage"] = e.Message;
+                return RedirectToAction("Register");
+            }
+            return RedirectToAction("Register");
+        }
     }
 }
