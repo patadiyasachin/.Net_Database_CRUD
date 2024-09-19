@@ -4,15 +4,14 @@
 
 @model LoginModel
 <div class="container">
-    @if (TempData["ErrorMessage"] != null)
-    {
-        <div class="alert alert-danger">
-            @TempData["ErrorMessage"]
-        </div>
-    }
-
     <div class="row justify-content-center align-items-center vh-100">
         <div class="col-md-4">
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger">
+                    @TempData["ErrorMessage"]
+                </div>
+            }
             <h2 class="text-center mb-4">Login</h2>
             <form method="post" asp-action="UserLogin" asp-controller="User">
                 <div class="mb-3">
