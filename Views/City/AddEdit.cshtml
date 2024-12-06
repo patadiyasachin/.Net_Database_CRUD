@@ -1,0 +1,95 @@
+﻿@model CityModel
+<div id="main" class="main">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Add City Form</h5>
+            <div class="container mt-2">
+                <h2>City Information</h2>
+                <form asp-controller="City" asp-action="Save" method="post" class="row g-3">
+
+                    <input type="hidden" asp-for="CityID" id="CityID" />
+                    <div asp-validation-summary="All" class="text-danger"></div>
+
+
+                    <div class="col-12  g-3">
+                        <label class="p-1">County ID</label>
+
+                        <select class="form-control" asp-for="CountryID" asp-items="@(new SelectList(ViewBag.countryList, "CountryID", "CountryName"))">
+                            <option value="">--Select Country--</option>
+                        </select>
+                        <span asp-validation-for="CountryID" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-12  g-3">
+                        <label class="p-1">State ID</label>
+                        <select class="form-control" asp-for="StateID" asp-items="@(new SelectList(ViewBag.stateList, "StateID", "StateName"))">
+                            <option value="">Select State</option>
+                        </select>
+                        <span asp-validation-for="StateID" class="text-danger"></span>
+                    </div>
+
+                    @*
+                    <div class="col-6  g-3">
+                    <label class="p-1">Country Name</label>
+                    <input type="text" asp-for="CountryID" class="form-control"  placeholder="Country Name">
+                    <span asp-validation-for="CountryID" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-6  g-3">
+                    <label class="p-1">State code</label>
+                    <input type="text" asp-for="StateID" class="form-control" placeholder="State Code">
+                    <span asp-validation-for="StateID" class="text-danger"></span>
+                    </div> *@
+
+                    <div class="col-6  g-3">
+                        <label class="p-1">City Name</label>
+                        <input type="text" asp-for="CityName" class="form-control" id="cityName" placeholder="City Name">
+                        <span asp-validation-for="CityName" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-6  g-3">
+                        <label class="p-1">City code</label>
+                        <input type="text" asp-for="CityCode" class="form-control" id="CityCode" placeholder="City Code">
+                        <span asp-validation-for="CityCode" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="col-12  g-3">
+                        <button type="submit" class="btn btn-success w-50 align-center g-5">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+@*
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Load countries into dropdown
+            $.getJSON('/City/CountryDropDown', function (data) {
+                $.each(data, function (key, entry) {
+                    $('#CountryID').append($('<option></option>').attr('value', entry.countryID).text(entry.countryName));
+                });
+            });
+
+            // Load states dynamically based on selected country
+            $('#CountryID').change(function () {
+                var countryId = $(this).val();
+                $('#StateID').empty().append('<option value="">Select State</option>');
+                if (countryId) {
+                    $.getJSON(/City/StateDropDown/${countryId}, function (data) {
+                        $.each(data, function (key, entry) {
+                            $('#StateID').append($('<option></option>').attr('value', entry.stateID).text(entry.stateName));
+                        });
+                    });
+                }
+            });
+        });
+    </script>
+} *@

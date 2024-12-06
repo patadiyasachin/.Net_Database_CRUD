@@ -42,6 +42,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRcRUNoYXJ0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/City/AddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/City/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Components/Accordion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xBY2NvcmRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -212,6 +220,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/State/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/B.TECH/sem-5/Asp .net core/NiceAdmin (Admin3)/Admin3/Views/Tables/DataTables.cshtml]
