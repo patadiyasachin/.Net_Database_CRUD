@@ -1,12 +1,12 @@
 ﻿@using System.Data
 @{
-    ViewData["Title"] = "State List";
+    ViewData["Title"] = "Country List";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <main id="main" class="main">
     <div class="pagetitle">
-        <h1>State</h1>
+        <h1>Country</h1>
         <nav>
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
@@ -14,19 +14,19 @@
                         <i class="fa fa-home"></i>
                     </a>
                 </li>
-                <li class="breadcrumb-item active" aria-current="page">State List</li>
+                <li class="breadcrumb-item active" aria-current="page">Country List</li>
             </ol>
         </nav>
         <div class="d-flex justify-content-end align-items-center">
-            <a class="btn btn-outline-primary" asp-controller="State" asp-action="AddEdit">
+            <a class="btn btn-outline-primary" asp-controller="Country" asp-action="AddEdit">
                 <i class="bi bi-plus-lg"></i>&nbsp;Add City
             </a>
         </div>
     </div><!-- End Page Title -->
-    @if (TempData["StateInsertMsg"] != null)
+    @if (TempData["CountryInsertMsg"] != null)
     {
         <div class="alert alert-success">
-            @TempData["StateInsertMsg"]
+            @TempData["CountryInsertMsg"]
         </div>
     }
 
@@ -37,8 +37,8 @@
     <table class="table table-hover table-header-fixed">
         <thead>
             <tr>
-                <th scope="col">State Name</th>
-                <th scope="col">State Code</th>
+                <th scope="col">Country Name</th>
+                <th scope="col">Country Code</th>
                 <th class="text-center">Actions</th>
             </tr>
         </thead>
@@ -46,13 +46,13 @@
             @foreach (DataRow row in Model.Rows)
             {
                 <tr>
-                    <td>@row["StateName"]</td>
-                    <td>@row["StateCode"]</td>
+                    <td>@row["CountryName"]</td>
+                    <td>@row["CountryCode"]</td>
                     <td class="text-center">
-                        <a class="btn btn-outline-success btn-xs" asp-controller="State" asp-action="AddEdit" asp-route-StateID="@row["StateID"]">
+                        <a class="btn btn-outline-success btn-xs" asp-controller="Country" asp-action="AddEdit" asp-route-CountryID="@row["CountryID"]">
                             <i class="bi bi-pencil-fill"></i>
                         </a>
-                        <a class="btn btn-outline-danger btn-xs" asp-controller="State" asp-action="Delete" asp-route-StateID="@row["StateID"]" onclick="return confirm('Are you sure you want to delete this city?');">
+                        <a class="btn btn-outline-danger btn-xs" asp-controller="Country" asp-action="Delete" asp-route-CountryID="@row["CountryID"]" onclick="return confirm('Are you sure you want to delete this city?');">
                             <i class="bi bi-x"></i>
                         </a>
                     </td>
