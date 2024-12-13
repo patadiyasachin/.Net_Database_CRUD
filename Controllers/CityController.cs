@@ -227,7 +227,55 @@ namespace CoffeeShop.Controllers
 
             return View("AddEdit");
         }
-        
+
+
+        #region GetStatesByCountry
+        // AJAX handler for loading states dynamically
+        [HttpPost]
+        public JsonResult GetStatesByCountry(int CountryID)
+        {
+            List<StateModel> loc_State = GetStateByCountryID(CountryID); // Fetch states
+            return Json(loc_State); // Return JSON response
+        }
+        #endregion
+
+
+        #region GetStateByCountryID
+        // Helper method to fetch states by country ID
+        public List<StateModel> GetStateByCountryID(int CountryID)
+        {
+            string connectionstr = _configuration.GetConnectionString("myConnString");
+            List<StateModel> loc_State = new List<StateModel>();
+
+            using (SqlConnection conn = new SqlConnection(connectionstr))
+            {
+                conn.Open();
+                using (SqlCommand objCmd = conn.CreateCommand())
+                {
+                    objCmd.CommandType = CommandType.StoredProcedure;
+                    objCmd.CommandText = "PR_LOC_State_SelectComboBoxByCountryID";
+                    objCmd.Parameters.AddWithValue("@CountryID", CountryID);
+
+                    using (SqlDataReader objSDR = objCmd.ExecuteReader())
+                    {
+                        if (objSDR.HasRows)
+                        {
+                            while (objSDR.Read())
+                            {
+                                loc_State.Add(new StateModel
+                                {
+                                    StateID = Convert.ToInt32(objSDR["StateID"]),
+                                    StateName = objSDR["StateName"].ToString()
+                                });
+                            }
+                        }
+                    }
+                }
+            }
+
+            return loc_State;
+        }
+        #endregion
     }
 }
 

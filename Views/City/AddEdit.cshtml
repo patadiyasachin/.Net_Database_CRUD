@@ -14,7 +14,7 @@
                     <div class="col-12  g-3">
                         <label class="p-1">County ID</label>
 
-                        <select class="form-control" asp-for="CountryID" asp-items="@(new SelectList(ViewBag.countryList, "CountryID", "CountryName"))">
+                        <select id="CountryID" class="form-control" asp-for="CountryID" asp-items="@(new SelectList(ViewBag.countryList, "CountryID", "CountryName"))">
                             <option value="">--Select Country--</option>
                         </select>
                         <span asp-validation-for="CountryID" class="text-danger"></span>
@@ -22,7 +22,7 @@
 
                     <div class="col-12  g-3">
                         <label class="p-1">State ID</label>
-                        <select class="form-control" asp-for="StateID" asp-items="@(new SelectList(ViewBag.stateList, "StateID", "StateName"))">
+                        <select id="StateID" class="form-control" asp-for="StateID" asp-items="@(new SelectList(ViewBag.stateList, "StateID", "StateName"))">
                             <option value="">Select State</option>
                         </select>
                         <span asp-validation-for="StateID" class="text-danger"></span>
@@ -62,34 +62,41 @@
         </div>
     </div>
 </div>
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}
-@*
+
+
 @section Scripts {
     <script>
-        $(document).ready(function () {
-            // Load countries into dropdown
-            $.getJSON('/City/CountryDropDown', function (data) {
-                $.each(data, function (key, entry) {
-                    $('#CountryID').append($('<option></option>').attr('value', entry.countryID).text(entry.countryName));
-                });
-            });
-
-            // Load states dynamically based on selected country
-            $('#CountryID').change(function () {
-                var countryId = $(this).val();
-                $('#StateID').empty().append('<option value="">Select State</option>');
-                if (countryId) {
-                    $.getJSON(/City/StateDropDown/${countryId}, function (data) {
-                        $.each(data, function (key, entry) {
-                            $('#StateID').append($('<option></option>').attr('value', entry.stateID).text(entry.stateName));
-                        });
-                    });
-                }
-            });
-        });
-    </script>
-} *@
+       $(document).ready(function () {
+           $("#CountryID").change(function () {
+               var countryId = $(this).val();
+               if (countryId) {
+                   $.ajax({
+                       url: '@Url.Action("GetStatesByCountry", "City")',
+                       type: "POST", // Changed to POST
+                       data: { CountryID: countryId }, // Use 'CountryID' to match controller
+                       success: function (data) {
+                           $("#StateID")
+                               .empty()
+                               .append('<option value="">Select State</option>');
+                           $.each(data, function (i, state) {
+                               $("#StateID").append(
+                                   '<option value="' +
+                                   state.stateID +
+                                   '">' +
+                                   state.stateName +
+                                   "</option>"
+                               );
+                           });
+                           console.log(state.stateID);
+                       },
+                       error: function (xhr, status, error) {
+                           console.error(error);
+                       },
+                   });
+               } else {
+                   $("#StateID").empty().append('<option value="">Select State</option>');
+               }
+           });
+       });
+   </script>
+}
